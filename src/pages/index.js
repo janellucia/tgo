@@ -1,9 +1,9 @@
 import React from 'react'
-import { Link } from 'gatsby'
+// import { Link } from 'gatsby'
 import Img from 'gatsby-image'
 
 import Layout from '../components/layout'
-// import Image from '../components/image'
+import Subscibe from '../components/subscribe'
 import SEO from '../components/seo'
 
 const IndexPage = (props) => (
@@ -17,10 +17,12 @@ const IndexPage = (props) => (
         <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
       </div>
       <div className="info">
-        <h2>New website <br></br>coming soon!</h2>
+        <h2>coming soon!</h2>
         <a href="mailto:begood@thegoodonesacademy.com">begood@thegoodonesacademy.com</a>
         <p>IG <a href="https://www.instagram.com/thegoodonesacademy/">@thegoodonesacademy</a></p>
-
+        <div className="divider"></div>
+        <p>be the first to know</p>
+        <Subscibe/>
       </div>
     </div>
     {/* <Link to="/">Go to page 2</Link> */}

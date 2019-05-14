@@ -7,6 +7,14 @@ $green: #5E8D7D;
 $purple: #D6D0FC;
 $olive: #3F3E12;
 
+@font-face {
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    src: url('../images/Gilroy-ExtraBold.otf') format('otf');
+    src: url('../images/Gilroy-ExtraBold.woff') format('woff');
+}
 
-$mainFont: #ffffff;
+
+$mainFont: 'Gilroy', 'Rubik', sans-serif;
 $bodyFont: 'Source Sans Pro', sans-serif;
