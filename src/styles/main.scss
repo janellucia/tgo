@@ -149,6 +149,11 @@ main {
   font-size: 1rem;
   border: none;
   outline: none;
+
+  @media (max-width: 768px) {
+    display: block;
+    width: calc(100% - 40px);
+  }
 }
 
 .email-button {
@@ -158,6 +163,12 @@ main {
   font-family: $mainFont;
   font-weight: 900;
   cursor: pointer;
+
+  @media (max-width: 768px) {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+  }
 }
 
 
