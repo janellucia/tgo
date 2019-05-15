@@ -163,6 +163,9 @@ main {
   font-family: $mainFont;
   font-weight: 900;
   cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 
   @media (max-width: 768px) {
     display: block;
@@ -174,4 +177,5 @@ main {
 
 footer {
   text-align: center;
+  font-size: 0.7em;
 }

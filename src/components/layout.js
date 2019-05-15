@@ -23,7 +23,7 @@ const Layout = ({ children }) => (
           {children}
         </main>
         <footer>
-          © {new Date().getFullYear()}, all rights reserved.
+          © {new Date().getFullYear()} the good ones academy. all rights reserved.
           {` `}
         </footer>
       </>
